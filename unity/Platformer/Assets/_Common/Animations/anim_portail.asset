@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e24daa21915a4a7a914ec3769fa2965, type: 3}
+  m_Name: anim_portail
+  m_EditorClassIdentifier: 
+  Data: 789ccd545b4fdb30184dc9ada130d80303ed293f2044206ee3a10fa51b088d4dd382f65255c1c90c58731c643b43e585e74dfb61fb57c39f432f6c6dd54eab5647f91229fe4ece393eb651310ce3971af084b1b4a0cabb8610384b6867b3195d237eb3f9e63391390ffc4f980b92b3fa56a8afc06f1654161cd7192e244734f03f140925e95bdc39cfbf60566705a53660af1d9f972061747b09f0f23592c8545fbc638e32fc1149ec469d2cc9a9708f88ccd08d304cb3f6bd127584c459d8cc29c5a9547f17e109669893343c23425e6cb75a83d825068007fe3f95d16e4fcda5d431132e0b7ab57e363c6da1a58a056ff36417f07162a2d8083b16e40e57e3af2592a2bb319c444b0bab563d5b3d2a8fb765fd8db2199a3fb9b23e899e32c7e80f1764961ae17e31dc1468f45c55964dd7e936187f34f4ff050d36348c01b4deab5de7e8bd272ae6b769ddd58d334bb6530573e248a22b1c7b1ed08532472cc746607d28875e021607b2ed2e3e49c0dad04e1d809a0e805dfbfd30edcdd2941a2cbdceb97386124c8577ca84442c851536ef27f0ee714a24396157819f8934e794247d97762775293938407be9defef6e1ce2ede7a75d86eff9876f1bae46797b225f0de5b86f20cdc87b7ff6dd3e860393a3c2b03c78705ace7cbd7b1fbe2e5281abdadb13aa0ee7957aabbfae4d0db18850218b5073b49adad
+  Hash: 0KaunRcRCGzCTUqs4cVFpEos04zdM4j2tAWK8e1pgsk=108825=1.3.15
+  Atlas: {fileID: 2800000, guid: ee9895e04cc3a0e4c929c7a75415f518, type: 3}
+  Settings:
+    MaxAtlasSize: 2048
+    AtlasPadding: 1
+    PixelsPerUnit: 100
+    BitmapTrimming: 1
+    GenerateMipMaps: 0
+    AtlasPowerOfTwo: 1
+    AtlasForceSquare: 1
+    AtlasTextureFilter: 1
+    AtlasTextureFormat: 2
+  Overridden:
+    MaxAtlasSize: 2048
+    AtlasPadding: 1
+    PixelsPerUnit: 100
+    BitmapTrimming: 1
+    GenerateMipMaps: 0
+    AtlasPowerOfTwo: 1
+    AtlasForceSquare: 1
+    AtlasTextureFilter: 1
+    AtlasTextureFormat: 2

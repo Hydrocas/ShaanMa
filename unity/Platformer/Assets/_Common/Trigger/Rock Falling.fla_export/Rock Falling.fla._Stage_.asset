@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9fa30e000f3420796cfbd1e09a86d6, type: 3}
+  m_Name: Rock Falling.fla._Stage_
+  m_EditorClassIdentifier: 
+  Name: _Stage_
+  Sprite: {fileID: 21300000, guid: c1140a651cab40e4a85ca1af5679e5b1, type: 3}
+  FrameRate: 30
+  AssetGUID: c1c8a0072422e2f488eeb48c17e0794a
+  Sequences:
+  - Name: Default
+    Frames:
+    - Labels: []
+      MeshData:
+        SubMeshes:
+        - StartVertex: 0
+          IndexCount: 18
+        Vertices:
+        - {x: 11.518001, y: 2.7584996}
+        - {x: 11.848001, y: 2.7584996}
+        - {x: 11.848001, y: 2.0084996}
+        - {x: 11.518001, y: 2.0084996}
+        - {x: 12.455501, y: 1.4244995}
+        - {x: 12.885501, y: 1.4244995}
+        - {x: 12.885501, y: 0.5544995}
+        - {x: 12.455501, y: 0.5544995}
+        - {x: 13.221001, y: 3.1134996}
+        - {x: 13.731001, y: 3.1134996}
+        - {x: 13.731001, y: 2.5834997}
+        - {x: 13.221001, y: 2.5834997}
+        UVs: 0000ffc87f257fd9ffa67f5a7fd2ff6fffd27f5a7fedff73
+        AddColors: 000000000000000000000000000000000000000000000000
+        MulColors: 000200020002000200020002000200020002000200020002
+      Materials:
+      - {fileID: 2100000, guid: d58d9a5e482e8429f8d7d18a9538d94a, type: 2}

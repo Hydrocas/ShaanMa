@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8e2a02416aec34394f1ddf1eefa8c9, type: 3}
+  m_Name: RaycastSetting
+  m_EditorClassIdentifier: 
+  _raycastMask:
+    serializedVersion: 2
+    m_Bits: 256
+  _groundedRaycastDistance: 0.22
+  _groundedRaycastTolerance: 1
+  _groundedRaycastNumber: 3
+  _airGroundedRaycastDistance: 0.22
+  _airGroundedRaycastTolerance: 0.03
+  _airGroundedRaycastNumber: 3
+  _airGroundSnapDistance: 2.5
+  _headRaycastDistance: 0.1
+  _headRaycastTolerance: 0.16
+  _headRaycastNumber: 2
+  _sideRaycastDistance: 0.2
+  _sideRaycastTolerance: 0.5
+  _sideRaycastNumber: 3
+  _sideSnapDistance: 1.5

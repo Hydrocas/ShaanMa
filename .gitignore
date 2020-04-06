@@ -1,0 +1,15 @@
+unity/Platformer/Assets/_Platformer/Textures/Sprites/Sky_background.png.meta
+[Bb]uilds/
+
+*.psd
+*.pds.meta
+*.pdf
+*.pdf.meta
+*.ai
+*.ai.meta
+unity/Platformer/Assets/_Platformer/Materials/RippleMat.mat
+unity/Platformer/Assets/_Platformer/Textures/Sprites/Plateformes_volantes.meta
+unity/Platformer/Assets/_Platformer/Textures/Sprites/Plateformes_volantes/colonne_longue.png
+unity/Platformer/Assets/_Platformer/Textures/Sprites/Plateformes_volantes/colonne_longue.png.meta
+unity/Platformer/Assets/EntityCache.meta
+unity/Platformer/Assets/EntityCache/Resources.meta

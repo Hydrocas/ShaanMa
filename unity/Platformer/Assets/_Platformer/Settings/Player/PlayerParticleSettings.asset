@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afca52a268b8924f8ccd797ff219b12, type: 3}
+  m_Name: PlayerParticleSettings
+  m_EditorClassIdentifier: 
+  _landing: {fileID: 6434989557804203951, guid: 35e6149e2cc80a5429153337635065f2,
+    type: 3}
+  _wallSliding: {fileID: 2128242576672178300, guid: f59d2f54c1fb3e942a7963e612350710,
+    type: 3}

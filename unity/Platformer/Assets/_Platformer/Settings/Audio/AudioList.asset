@@ -1,0 +1,360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de685774fd1d7cc48b91756b7d5f2a2a, type: 3}
+  m_Name: AudioList
+  m_EditorClassIdentifier: 
+  globalMixer: {fileID: 0}
+  sounds:
+  - tag: Aphorn
+    clip: {fileID: 8300000, guid: 6fc4ccba6428a52468135bb06856dee0, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Erhu
+    clip: {fileID: 8300000, guid: e9a0020b0c8ebcb419bed730b48a3823, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Koto
+    clip: {fileID: 8300000, guid: ea5a475ffd0f2724bb028900656e7c25, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Koto2
+    clip: {fileID: 8300000, guid: 0d78b8e2feedcfa46a911208171bfd1c, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Koto3
+    clip: {fileID: 8300000, guid: f348999b4a812144d988e27575548206, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Kotob
+    clip: {fileID: 8300000, guid: 577403157d30e35488b36da9b90c9c65, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string1
+    clip: {fileID: 8300000, guid: f2075ca5568cd32458b74c6c3c96533c, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string2
+    clip: {fileID: 8300000, guid: b4eea977199119c43b7971a8a4decfcc, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string3
+    clip: {fileID: 8300000, guid: a2d3175b8a68ab442b5d58278066c22e, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string4
+    clip: {fileID: 8300000, guid: d0d48a3ecaf752b4295c726936936a16, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string_stac1
+    clip: {fileID: 8300000, guid: 5d4e90a799b4ff545b10c5cf9253d9c6, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string_stac2
+    clip: {fileID: 8300000, guid: f7fcc87d0a80c0d448904d3d97881775, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Spit_string_stac3
+    clip: {fileID: 8300000, guid: a9ce175232a54aa419a8bf736a709037, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Tambourin
+    clip: {fileID: 8300000, guid: 1cc90574079b2f74398910ffdf22e8b8, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Tambourin2
+    clip: {fileID: 8300000, guid: 28adf095dd1f14d4ab3a1e046d62ead8, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Tambourin_Layer
+    clip: {fileID: 8300000, guid: 164b266c290ac4740a95a4c714743807, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Tambourin_Layer2
+    clip: {fileID: 8300000, guid: c84bd8e37f17d0f4c8916fb5e506ab06, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_intro
+    clip: {fileID: 8300000, guid: 3152de884dd04be4a836586b04392235, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_intro2
+    clip: {fileID: 8300000, guid: 206723df11257c64d96298ec22eb340f, type: 3}
+    mixer: {fileID: 24300002, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_Low
+    clip: {fileID: 8300000, guid: 7956767d714b31241a08d002e2332173, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_Low2
+    clip: {fileID: 8300000, guid: decbe4b1b6bb6384183d16451406313c, type: 3}
+    mixer: {fileID: 24300002, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_High1
+    clip: {fileID: 8300000, guid: 2aaed5d5d63ac134ea34df7b8b809bf0, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_High2
+    clip: {fileID: 8300000, guid: 0a783750fcfbaff46acba633d00d006f, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Taiko_High_layer
+    clip: {fileID: 8300000, guid: 3c403e1adf0d54040b60b2fe83694f1a, type: 3}
+    mixer: {fileID: 24300002, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Uvi_pizz
+    clip: {fileID: 8300000, guid: 5ef855e16a95ba147a2f0eaef55ba616, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Uvi_glok1
+    clip: {fileID: 8300000, guid: e6a1b33646dc750428bb0e1afe99e924, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Uvi_glok2
+    clip: {fileID: 8300000, guid: 007ddb8b3db288b4d9be71e0746e19a5, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Uvi_glok3
+    clip: {fileID: 8300000, guid: 7c66572427ba85848a5a29f2a264fcd2, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Voice_alien1
+    clip: {fileID: 8300000, guid: 5aaaf430bbb33dc4f8de7907a08a4e56, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Voice_alien2
+    clip: {fileID: 8300000, guid: df82521134980544d8ee8afdca1c0d80, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Voice_alien3
+    clip: {fileID: 8300000, guid: ab17d2807ac7bab41aaf818ba8d4e842, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Voice_alien2_1
+    clip: {fileID: 8300000, guid: e4d9caa82fc8222409fbd18c3d8be252, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Voice_alien2_2
+    clip: {fileID: 8300000, guid: 86156ba3f078cfa4687511e338ce6802, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Voice_alien2_3
+    clip: {fileID: 8300000, guid: 0cfc1cad138c2d041893efacc2a97df0, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Button
+    clip: {fileID: 8300000, guid: 85835c2be3ad69e4d9014cbcd6974993, type: 3}
+    mixer: {fileID: 24300002, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    type: 0
+    showInfoEditor: 1
+  - tag: Bambou_flute
+    clip: {fileID: 8300000, guid: bd2dc576187b29e408a1bd9acd6ae305, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Niv1
+    clip: {fileID: 8300000, guid: 59b44877b434b4a42accdf57f460749a, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Koto4
+    clip: {fileID: 8300000, guid: d91db978f93723f4bb2438915593ad10, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Kotob2
+    clip: {fileID: 8300000, guid: d91db978f93723f4bb2438915593ad10, type: 3}
+    mixer: {fileID: 3361550162099787778, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Ambiance 1
+    clip: {fileID: 8300000, guid: 8a4263cf0e377564d818c1d2f32acb35, type: 3}
+    mixer: {fileID: 3284079327114706391, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Ambiance2
+    clip: {fileID: 8300000, guid: be1adf14e18ddc6408e7316246746abd, type: 3}
+    mixer: {fileID: 3284079327114706391, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: montagne
+    clip: {fileID: 8300000, guid: 10b1e9f1cf8cd804ca6b41cdf39ed0d0, type: 3}
+    mixer: {fileID: 3284079327114706391, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    type: 1
+    showInfoEditor: 0
+  - tag: Click
+    clip: {fileID: 8300000, guid: 9acdaa19744c2974eaba1a752b644549, type: 3}
+    mixer: {fileID: 24300002, guid: 84983725bf2a71840a95d9aafa5b5322, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    type: 0
+    showInfoEditor: 1
